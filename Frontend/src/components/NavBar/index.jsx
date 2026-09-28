@@ -51,7 +51,6 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-1">
           {[
             { to: "/problems", label: "문제" },
-            { to: "/ranking", label: "랭킹" },
             { to: "/archive/", label: "아카이브", external: true },
             { to: "/community", label: "커뮤니티" },
           ].map((item) => {
@@ -132,7 +131,6 @@ const Navbar = () => {
         <div className="max-w-[1200px] mx-auto px-6 py-2 flex items-center justify-between">
           {[
             { to: "/problems", label: "문제" },
-            { to: "/ranking", label: "랭킹" },
             { to: "/archive/", label: "아카이브", external: true },
             { to: "/community", label: "커뮤니티" },
           ].map((item) => {
